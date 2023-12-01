@@ -11,7 +11,7 @@ public class BaseTest extends BrowseManager{
   {
     openBrowser();
   }
- // @AfterMethod
+ @AfterMethod
   public void tearDown(ITestResult result){
 
       if(!result.isSuccess())
